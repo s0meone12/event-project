@@ -18,7 +18,7 @@ countries and it shows location and time and location of the
 
 ## Deployment
 
-We have deployed this project on vercel.com
+I have deployed this project on vercel.com
 
 ```bash
   visit https://vercel.com/dashboard to explore the project.
