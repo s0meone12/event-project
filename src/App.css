@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: auto;
+}
+
+
+h1{
+  text-align: center;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 50;
+} 
+
+.logo{
+  box-shadow: 5px 5px 15px 5px #EFEFEF;
+  padding-left: 27px;
+}
+
+.btn {
+  background-color: white;
+  border: 1px solid #00c853;
+  color: #00c853;
+  padding: 14px 90px ;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 16px;
+  /* font-family: 'Montserrat', sans-serif; */
+  
+}
+
+.dflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 30px, 50px, 20px, 50px;
+  box-sizing: border-box;
+}
+
+nav {
+  justify-content: space-around;
+  width: 100%;
+}
+.header {
+  text-align: center;
+  font-size: 30px;
+  /* text-transform: uppercase; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* padding-left: ; */
+}
+.footer {
+  text-align: center;
+  position: relative;
+}
+
+.main_content {
+  height: 100%;
+  margin: 50px auto;
+  padding-left: 350px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px 80px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.event_meet_time{
+  margin-top: 6px;
+  margin-bottom: 11px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+}
+
+
+.event_title_cnt_name{
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 19.5px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.event_card {
+  position: relative;
+  height: 250px;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  overflow: hidden;
+  padding-bottom: 17px;
+}
+
+.card_img {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card_detail {
+  position: absolute;
+  bottom: 17px;
+  background-color: white;
+  width: 100%;
+  size: 12px;
+  padding: 0 10px;
+  box-sizing: border-box;
+ 
+}
+
+.main-structure {
+  display: flex;
+  grid: 1fr 3fr;
+  min-height: 100vh;
+  width: 80%;
+  margin: auto;
+}
+
+.sidebar {
+  width: 250px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  /* box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25); */
+  position: absolute;
+  text-align: center;
+  padding: 20px;
+  line-height: 60px;
+  border-radius: 10px;
+}
+
+.country_tile {
+  cursor: pointer;
+}
+
+.selected_country_tile {
+  background: #f16621;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+.country_tile:hover {
+  background: #fed7aa;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.event_date_div {
+  color: #f16621;
+  margin-top: 15px;
+  font-weight: 500;
+  font-size: 14px;
+ 
+}
+
