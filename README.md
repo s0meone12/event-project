@@ -29,5 +29,5 @@ Events.
 I have deployed this project on vercel.com
 
 ```bash
-  visit https://vercel.com/dashboard to explore the project.
+  visit https://event-project-five.vercel.app/ to explore the project.
 
